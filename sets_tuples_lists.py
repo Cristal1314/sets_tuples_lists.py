@@ -16,7 +16,45 @@ fruits.insert(0, "pineapple")
 # fruits.sort() # this sorts the list
 # fruits.reverse() # reverse
 # fruits.clear() # Just clears the list
+print(fruits.index("apple"))
 
+print(fruits)
 # # print(fruits[::-1])
 # for fruit in fruits:
 #     print(fruit)
+
+
+
+
+cars = ["bmw", "maserati","audi","mercedes", "ferrari"]
+print(f"these are lists of {cars}")
+print(f"the first car is {cars[0]}")
+
+
+#changing the value of the lists
+cars [0] = "toyota"
+print(f"the first cars is {cars[0]}")
+
+
+print(f"the last car is {cars[-1]}")
+cars[-1] = "Lamborghini"
+print(f"the lst car is {cars[-1]}")
+
+
+#adding a new value to the list
+cars.append("bugatti")
+print(cars)
+cars.remove("maserati")
+print(cars)
+
+
+#looping through the list
+#otherwise called iterating through the list
+for car in cars:
+   #print(len(car))
+   #print(car)
+#    carRequest = input("add a new car please: ")
+#    cars.append(carRequest)
+   print(len(car))
+   print(cars.uppercase())
+   print(cars)
